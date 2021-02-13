@@ -42,4 +42,4 @@ curl -H "Content-Type: application/json" -d 3 http://localhost:8080/numbers
 curl -H "Content-Type: application/json" -d end http://localhost:8080/numbers
 ```
 
-After sending the example requests, they all should return `6` as a response.
+After sending the example requests, they all will return `6` as a response.
