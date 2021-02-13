@@ -12,6 +12,7 @@ import static org.apache.commons.collections4.CollectionUtils.isNotEmpty;
 class SummingService {
 
     private final Queue<SumHolder> queue = new LinkedList<>();
+
     private int sum = 0;
 
     @SneakyThrows
