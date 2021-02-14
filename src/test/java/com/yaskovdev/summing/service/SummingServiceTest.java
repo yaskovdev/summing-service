@@ -49,7 +49,7 @@ class SummingServiceTest {
                 });
 
         final String reason = "Sum of submitted numbers is not equal to sum of returned results, " +
-                "submitted is " + submittedSum.get() + ", released is " + releasedSum.get();
+                "submitted sum is " + submittedSum.get() + ", returned sum is " + releasedSum.get();
         assertThat(reason, releasedSum.get(), is(submittedSum.get()));
     }
 
